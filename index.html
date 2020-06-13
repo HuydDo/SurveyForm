@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AngularJS Technical Document</title>
+</head>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Your suggessions to impove the work process</p>
+  <form>
+    Name: <input type="text" id="name-label"> 
+    <br><br>
+    Email: <input type="email" id="email-label">
+     <br><br>
+    Age: <input type="number" id="number-label" min="1" max="100">
+    <br><br>
+    Current Role: 
+   
+    <select id="dropdown">
+      <option value="">Select an option</option>
+      <option value="Agent">Agent</option>
+      <option value="Supervisor">Supervisor</option>
+      <option value="Manager">Manager</option>
+    </select>  
+    <br><br>
+    Gender:  
+    <input type="radio" name="gender" value="male">Male
+    <input type="radio" name="gender" value="female">Female</br>
+    <br>
+    Things do you like to improve: (Check all that apply):<br><br>
+    <input type="checkbox" name="New working process" value="New working process">New working process<br>
+    <input type="checkbox" name="Additonal training" value="Additonal training">Additonal training<br>
+    <input type="checkbox" name="Better management" value="Better management">Better management<br><br>
+    Additonal comments:
+    <textarea name="message" row="10" cols="30">
+    </textarea>
+    <br>
+    <input type="submit" id="submit">
+  </form>
